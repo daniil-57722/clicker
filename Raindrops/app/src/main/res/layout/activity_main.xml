@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/bg"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/rule_height"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="@dimen/button_text_size"
+        android:text="@string/hist"
+        android:layout_marginBottom="@dimen/margin"
+        />
+
+    <TextView
+        android:id="@+id/rain_counter"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/counter_height"
+        android:background="@color/window"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="@dimen/counter_text_size" />
+    <TextView
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/rule_height"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="@dimen/button_text_size"
+        android:text="@string/rule" />
+
+
+    <Button
+
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_height"
+        android:background="@drawable/button"
+        android:textColor="@color/white"
+        android:onClick="onClickBtnAddDrops"
+        android:text="@string/button_click"
+        android:textSize="@dimen/button_text_size"
+        />
+    <Button
+
+        android:layout_width="@dimen/button_decrease_width"
+        android:layout_height="@dimen/button_decrease_height"
+        android:layout_marginTop="@dimen/margin"
+        android:background="@drawable/button"
+        android:textColor="@color/white"
+        android:onClick="onClickBtnSubDrops"
+        android:text="@string/sub"
+        android:textSize="@dimen/sub_text_size"
+        />
+
+
+
+</LinearLayout>
