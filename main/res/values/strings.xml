@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Raindrops Counter</string>
+    <string name= "button_click">Капнуть каплю</string>
+    <string name= "rule">Капелек в дожде</string>
+    <string name= "hist">Привет! Это счетчик капелек в дожде. Помоги дождю стать больше или осуши его - как пожелаешь!</string>
+    <string name= "sub">Осушить (-100 капелек)</string>
+</resources>
